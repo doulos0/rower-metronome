@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Erg Metronome
+GenericName=Concept2 Rowing Pacer
+Comment=Visual Concept2 rowing metronome with proper form (22–36 SPM)
+Exec=/usr/bin/rower-metronome
+Icon=rower-metronome
+Terminal=false
+Type=Application
+Categories=Sports;Utility;
+Keywords=rowing;concept2;erg;metronome;spm;pacer;workout;
+StartupWMClass=rower-metronome

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Concept2 Monorail & Legs -->
+    <path
+        android:strokeColor="#FF9AA6B8"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M21,71 L69,71" />
+    <path
+        android:strokeColor="#FF707A8A"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:pathData="M25,72 L22,82 M66,72 L81,82" />
+
+    <!-- Flywheel & PM5 Arm -->
+    <path
+        android:fillColor="#FF1C212A"
+        android:strokeColor="#FF808B9C"
+        android:strokeWidth="2.8"
+        android:pathData="M79,53 A12,12 0 1,0 79.01,53 Z" />
+    <path
+        android:fillColor="#FF465060"
+        android:pathData="M79,61 A4,4 0 1,0 79.01,61 Z" />
+    <path
+        android:strokeColor="#FF788394"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:pathData="M69,56 L65,37" />
+    <path
+        android:strokeColor="#FF00E298"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:pathData="M62,33 L66,42" />
+
+    <!-- Chain & Seat -->
+    <path
+        android:strokeColor="#FFDCE4F0"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:pathData="M69,56 L57,56" />
+    <path
+        android:strokeColor="#FFC8D0DC"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:pathData="M34,68 L45,68" />
+
+    <!-- Stick Figure Rower in Drive -->
+    <path
+        android:strokeColor="#FF00E298"
+        android:strokeWidth="4.6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M39,66 L51,54 L53,74" />
+    <path
+        android:strokeColor="#FF00E298"
+        android:strokeWidth="5.4"
+        android:strokeLineCap="round"
+        android:pathData="M39,66 L47,41" />
+    <path
+        android:strokeColor="#FF00E298"
+        android:strokeWidth="4.0"
+        android:strokeLineCap="round"
+        android:pathData="M47,41 L57,56" />
+    <path
+        android:fillColor="#FF00E298"
+        android:pathData="M50,24 A6.5,6.5 0 1,0 50.01,24 Z" />
+
+    <!-- Handle Grip -->
+    <path
+        android:strokeColor="#FFF5C346"
+        android:strokeWidth="2.8"
+        android:strokeLineCap="round"
+        android:pathData="M57,53 L57,59" />
+</vector>

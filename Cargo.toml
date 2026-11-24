@@ -1,0 +1,24 @@
+[package]
+name = "rower_metronome"
+version = "0.1.0"
+edition = "2024"
+description = "Concept2 rowing machine visual metronome with anatomically accurate stroke form (22–36 SPM)"
+
+[lib]
+name = "rower_metronome"
+crate-type = ["rlib", "cdylib"]
+
+[[bin]]
+name = "rower_metronome"
+path = "src/main.rs"
+
+[target.'cfg(not(target_os = "android"))'.dependencies]
+eframe = { version = "0.37.0", features = ["glow"] }
+
+[target.'cfg(target_os = "android")'.dependencies]
+eframe = { version = "0.37.0", default-features = false, features = ["android-native-activity", "default_fonts", "wgpu"] }
+android-activity = { version = "0.6", features = ["native-activity"] }
+
+# Keep GUI/rendering dependencies fast even during `cargo run` (debug) builds.
+[profile.dev.package."*"]
+opt-level = 2
